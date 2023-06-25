@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+   
+}
+main{
+    background-color: black;
+}
+
+header{
+    background-image: url(../images/encabezado.jpg);
+    color: white;
+    height:35rem;
+     text-shadow: 5px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    padding: 20px;
+    font-size: 3rem;
+    font-family: 'Belanosima', sans-serif;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Belanosima', sans-serif;
+}
+h3{
+    font-size: 1rem;
+    font-family: 'Belanosima', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+ul li{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    background-color: #260101;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+ 
+}
+nav ul li a{
+    color: aliceblue;
+    padding: 15px;
+    background-color: #732C02;
+    
+}
+nav ul li a:hover{
+    background-color: #ab4002;
+    padding:20px;
+}
+.historia{
+    margin: 50px;
+    background-color: #A62F03;
+    padding: 25px;
+    font-size: 20px;
+}
+.galeria{
+    margin: 50px;
+    background-color: #A62F03;
+    padding: 25px;
+    text-align: center;
+}
+.box{
+    background-color: #FDDC3B;
+    margin: 5px;
+    padding: 25px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.box img{
+    width: 200px;
+    height: 150px;
+
+
+}
+.box img:hover{
+    height: 200px;
+    width: 250px;
+}
+.condiciones{
+    margin: 50px;
+    background-color: #A62F03;
+    padding: 25px;
+}
+.condiciones h2{
+    text-align: center;
+}
+.condiciones ul li{
+    list-style-type: decimal;
+}
+.form{
+    background-color:#ab4002;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 300px;
+    font-family: 'Open Sans', sans-serif;
+      
+}
+.col{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+}
+.btn{
+    border: 1px solid #260101;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: #260101;
+    cursor: pointer;
+
+}
+.btn a{
+    color: aliceblue;
+}
+.fin{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #260101;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.gracias{
+    color: #260101;
+    background-color: #ab4002;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+.fondo{
+    background-color: #ab4002;
+}
+
+
+/* Versión tablet */
+@media (max-width: 768px){
+    .form{
+        background-color:#ab4002;
+        border-radius: 1rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 30px;
+        font-family: 'Open Sans', sans-serif;
+          
+    }
+    .col{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        gap: 10px;
+}
+.gracias{
+    color: #260101;
+    background-color: #ab4002;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin-top: 150px;
+}
+}
+
+/* Versión Mobile */
+@media (max-width: 425px){
+    h1{
+        padding: 20px;
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Belanosima', sans-serif;
+    }
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Belanosima', sans-serif;
+
+    }
+    nav ul li{
+        padding:0.5rem;
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+.historia{
+    margin: 0.5rem;
+    background-color: #A62F03;
+    padding: 5px;
+    font-size: 20px;
+}
+.galeria{
+    margin: 0.5rem;
+    background-color: #A62F03;
+    padding: 5px;
+    text-align: center;
+}
+.condiciones{
+    margin: 0.5rem;
+    background-color: #A62F03;
+    padding: 5px;
+}
+
+}
+
+
