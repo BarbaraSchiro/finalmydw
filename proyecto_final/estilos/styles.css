@@ -57,6 +57,7 @@ nav ul li a{
     color: aliceblue;
     padding: 15px;
     background-color: #732C02;
+    transition: ease-in-out all 0.5s;
     
 }
 nav ul li a:hover{
@@ -86,7 +87,7 @@ nav ul li a:hover{
 .box img{
     width: 200px;
     height: 150px;
-
+    transition: ease-in-out all 0.5s;
 
 }
 .box img:hover{
@@ -115,6 +116,18 @@ nav ul li a:hover{
     margin: 0px 300px;
     font-family: 'Open Sans', sans-serif;
       
+}
+.form input{
+    padding-left: 180px ;
+      
+}
+.form form-control{
+    padding-left: 180px;
+
+}
+.form select{
+    padding-left: 180px;
+   font-size: 1rem;
 }
 .col{
     width: 60%;
@@ -234,6 +247,39 @@ nav ul li a:hover{
     margin: 0.5rem;
     background-color: #A62F03;
     padding: 5px;
+}
+
+.form{
+    background-color:#ab4002;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+      
+}
+
+.box{
+    background-color: #FDDC3B;
+    margin: 5px;
+    padding: 6px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+
+
+}
+.box img:hover{
+    height: 400px;
+    width: 350px;
 }
 
 }
